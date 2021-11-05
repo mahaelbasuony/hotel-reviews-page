@@ -1,0 +1,29 @@
+.accommodation {
+    display: flex;
+}
+
+.accommodations_list {
+    display: flex;
+    flex-flow: column;
+    margin: 30px;
+    border-bottom: 1px solid rgb(206, 197, 197);
+}
+
+.accommodation_user_data {
+    color: gray;
+    font-size: 13px;
+}
+
+.accommodation_user_data span {
+    font-weight: bold;
+    color: rgb(80, 78, 78);
+}
+
+.accommodation_title {
+    font-size: x-large;
+    margin: 8px 0;
+}
+
+.accommodation_content {
+    margin-bottom: 30px;
+}
