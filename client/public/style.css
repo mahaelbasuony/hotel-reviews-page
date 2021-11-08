@@ -1,12 +1,20 @@
-.accommodation {
-    display: flex;
-}
+/* accommodations list  */
 
-.accommodations_list {
+.accommodations {
     display: flex;
     flex-flow: column;
-    margin: 30px;
-    border-bottom: 1px solid rgb(206, 197, 197);
+    margin-top: 60px;
+    border-top: 1px solid rgb(206, 197, 197);
+}
+
+.accommodation_data {
+    display: flex;
+    flex-flow: row;
+}
+
+.accommodation_details {
+    width: 100%;
+    display: block inline;
 }
 
 .accommodation_user_data {
@@ -19,11 +27,51 @@
     color: rgb(80, 78, 78);
 }
 
-.accommodation_title {
-    font-size: x-large;
-    margin: 8px 0;
+.accommodation_content {
+    margin-right: 30px;
 }
 
-.accommodation_content {
-    margin-bottom: 30px;
+.accommodation_location_with_date {
+    /* width: 30%; */
+    padding-top: 30px;
+    align-self: left;
+}
+
+.accommdation_ratings {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    width: 70%;
+}
+
+
+/* accommdation   */
+
+.accommodation_title {
+    font-weight: normal;
+    position: relative;
+}
+
+.accommodation_description {
+    width: 90%;
+}
+
+.accommodation_average {
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 12px;
+    color: white;
+}
+
+
+/* accommdation average rating */
+
+.accommdation_average_rating,
+.accommdation_travelwith_percentages {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
 }
